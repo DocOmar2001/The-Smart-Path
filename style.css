@@ -1856,10 +1856,11 @@ body {
   }
 
   .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: var(--space-32) 0;
-  }
+  flex-direction: column;
+  text-align: center;
+  padding: var(--space-32) 0;
+  min-height: auto;
+}
 
  .hero__container {
   order: 1;
