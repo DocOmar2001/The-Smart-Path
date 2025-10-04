@@ -1861,22 +1861,28 @@ body {
     padding: var(--space-32) 0;
   }
 
-  .hero__background {
-    position: relative;
-    width: 100%;
-    height: auto;
-    order: -1;
-    margin-bottom: var(--space-24);
-  }
+ .hero__container {
+  order: 1;
+}
 
-  .hero__image {
-    width: 60%;
-    max-width: 300px;
-  }
+.hero__content {
+  max-width: 100%;
+}
 
-  .hero__content {
-    max-width: 100%;
-  }
+.hero__background {
+  position: relative;
+  width: 100%;
+  height: auto;
+  order: 2;
+  margin-top: var(--space-32);
+  display: flex;
+  justify-content: center;
+}
+
+.hero__image {
+  width: 70%;
+  max-width: 350px;
+}
 
   .hero__title {
     font-size: var(--font-size-3xl);
