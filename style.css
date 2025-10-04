@@ -1855,11 +1855,12 @@ body {
     display: flex;
   }
 
-  .hero {
+ .hero {
   flex-direction: column;
   text-align: center;
-  padding: var(--space-32) 0;
+  padding: var(--space-32) 0 var(--space-16) 0;
   min-height: auto;
+  padding-bottom: 0;
 }
 
  .hero__container {
@@ -1876,6 +1877,8 @@ body {
   height: auto;
   order: 2;
   margin-top: var(--space-32);
+  margin-bottom: 0;
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
 }
